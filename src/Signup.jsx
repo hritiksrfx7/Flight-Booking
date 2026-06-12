@@ -1,18 +1,18 @@
 import { useState } from "react"
+import {Navigate, useNavigate} from 'react-router-dom'
 import './Tailwind.css'
 import  './Signup.css'
-import bgImage from './assets/signup-bg.png'
+import bgImage from './assets/loging-bg.png'
  import { FcGoogle } from "react-icons/fc";
  import { FaFacebook } from "react-icons/fa6";
  import { IoPricetagOutline } from "react-icons/io5";
  import { SlCalender } from "react-icons/sl";
  import { IoMdContacts } from "react-icons/io";
+ import {Link} from "react-router-dom"
+ import TextType from './TextType'
+ import SplashCursor from './SplashCursor'
 
-
-
-
-
-
+ 
 
 const Signup = ()=>{
    const [error,seterror] =useState({})
@@ -20,10 +20,11 @@ const Signup = ()=>{
         name:"",
         email:"",
         pass:"",
-        
         num:""
     })
 
+    let navigate = useNavigate()
+  
     const handleChange = (e)=>{
            setForm({
         ...form,[e.target.name]:e.target.value
@@ -80,6 +81,7 @@ const Signup = ()=>{
       }
      
        alert("Form submitted succesfully")
+        navigate('/login')
        setForm( {
          name:"",
         email:"",
@@ -98,10 +100,23 @@ const Signup = ()=>{
 
           {/* div for some content */}
           <div className=" h-150 w-130  ml-25 pl-10 overflow-hidden ">
-              
-              <div className="h-20 w-50  text-3xl  mt-30 font-semibold">
+               <TextType 
+  text={[" Your Journey Start here", "Best of Luck!"]}
+  typingSpeed={75}
+  pauseDuration={1500}
+  showCursor
+  cursorCharacter="_"
+  texts={[]}
+  deletingSpeed={50}
+  variableSpeedEnabled={false}
+  variableSpeedMin={60}
+  variableSpeedMax={120}
+  cursorBlinkDuration={0.5}
+/>
+              {/* <div className="h-20 w-50 ml-20  text-3xl  mt-30 font-semibold" >
                 Your Journey Start here
-              </div>
+              </div> */}
+                         
               
 
               <div className="h-30 w-70  mt-10  flex justify-center items-center gap-5   ">
@@ -121,7 +136,7 @@ const Signup = ()=>{
               </div>
 
                <div className="h-30 w-70 flex justify-center items-center gap-5   ">
-                   <div className="h-12 w-12 text-3xl mb-5  border  rounded-full flex items-center justify-center">
+                   <div className="h-12 w-12 text-3xl mb-5  border   rounded-full flex items-center justify-center">
                     <SlCalender />
 
                    </div>
@@ -160,7 +175,8 @@ const Signup = ()=>{
 
 
           {/* div for form */}
-          <div id="formcss" className="mr-15 mb-6 rounded-2xl fixed top-0 right-0 mt-17   "   >
+
+   <div id="formcss" className="mr-15 mb-6 rounded-2xl fixed top-0 right-0 mt-17   "   >
               <h1 className="font-bold text-2xl pl-8 pt-8">Create Your Account</h1>
               <h1 className="font-semibold pl-10">start your journey</h1>
 
@@ -200,11 +216,33 @@ const Signup = ()=>{
       <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg ml-32">
           Create Your account
     </button>
-                    
+    
+         <p className='text-center'>Alredy have an account
+              <Link to='/login'>
+                   <span className='   text-blue-600 text-xl ml-2 '>Login</span>
+              </Link>
+             </p>
         </form>
           </div>
-        
+          
+
+
+
+         
         </div>
+       {/* for styling cursor */}
+        <SplashCursor
+  DENSITY_DISSIPATION={3.5}
+  VELOCITY_DISSIPATION={2}
+  PRESSURE={0.1}
+  CURL={3}
+  SPLAT_RADIUS={0.2}
+  SPLAT_FORCE={6000}
+  COLOR_UPDATE_SPEED={10}
+  SHADING
+  RAINBOW_MODE={false}
+  COLOR="#A855F7"
+/>
         </>
     )
 }
