@@ -10,7 +10,7 @@ import bgImage from './assets/loging-bg.png'
  import { IoMdContacts } from "react-icons/io";
  import {Link} from "react-router-dom"
  import TextType from './TextType'
- import SplashCursor from './SplashCursor'
+ 
 
  
 
@@ -230,19 +230,7 @@ const Signup = ()=>{
 
          
         </div>
-       {/* for styling cursor */}
-        <SplashCursor
-  DENSITY_DISSIPATION={3.5}
-  VELOCITY_DISSIPATION={2}
-  PRESSURE={0.1}
-  CURL={3}
-  SPLAT_RADIUS={0.2}
-  SPLAT_FORCE={6000}
-  COLOR_UPDATE_SPEED={10}
-  SHADING
-  RAINBOW_MODE={false}
-  COLOR="#A855F7"
-/>
+       
         </>
     )
 }

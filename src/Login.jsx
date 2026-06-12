@@ -2,14 +2,12 @@
 import { useState } from 'react'
  import { FcGoogle } from "react-icons/fc";
  import { FaFacebook } from "react-icons/fa6";
- import {Link} from 'react-router-dom'
+ import {Link, useNavigate} from 'react-router-dom'
 import bgImage from './assets/loging-bg.png'
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlineFlight } from "react-icons/md";
+import { RiShieldCheckFill } from "react-icons/ri";
 import TextType from './TextType'
-import SplashCursor from './SplashCursor'
-
-
 import './Login.css'
 
 
@@ -19,7 +17,9 @@ const Login = ()=>{
         "email":"",
         "pass":""
     })
+    let Navigate = useNavigate();
 
+    const [checked,setChecked] = useState(false)
     const handleChange = (e)=>{
         setForm({
             ...form,[e.target.name]:e.target.value
@@ -32,6 +32,10 @@ const Login = ()=>{
        let alreadyuser = users.find((e)=>{
         return e.email == form.email
        })
+       if(!checked){
+        alert('please accept the terms and condition')
+        return 
+       }
        if(!alreadyuser){
         alert("please signup first")
         return 
@@ -42,9 +46,14 @@ const Login = ()=>{
        if(alreadyuser.pass == form.pass ){
         alert("login successfully")
        }
+
+       Navigate('/home')
+
+
     }
     return (
         <>
+        
          <div  className="h-screen bg-cover bg-center "
                  style={{backgroundImage: `url(${bgImage})`}}>
 
@@ -59,7 +68,7 @@ const Login = ()=>{
          
         <input placeholder="Password" className="border border-gray-300 p-2 rounded-md w-85 h-10 ml-13 " type="text" name="pass" value={form.pass} onChange={handleChange} /> <br /><br />
          
-         <input type="checkbox" className='ml-14' />
+         <input type="checkbox" className='ml-14' onClick={(e)=>setChecked(true)} />
         <label className='ml-3 text-sm text-gray-600'>Remember me   </label>
          <label className='text-sm text-blue-600 ml-25' >Forgot password?</label>
 
@@ -116,7 +125,7 @@ const Login = ()=>{
                  </div>
                 </div>
             <div class="login-help">
-                <div class="login-help-icons"><MdOutlineFlight /></div>
+                <div class="login-help-icons"><RiShieldCheckFill /></div>
                  <div class="login-help-content">
                     <h1  className='pl-4 font-bold pt-2 '>Secure Booking</h1>
                     <h1 className='pl-4  pt-2'>Your personal  <br /> information is safe <br /> with us </h1>
@@ -137,19 +146,7 @@ const Login = ()=>{
 
          </div>
            
-            {/* for styling cursor */}
-       <SplashCursor
-  DENSITY_DISSIPATION={3.5}
-  VELOCITY_DISSIPATION={2}
-  PRESSURE={0.1}
-  CURL={3}
-  SPLAT_RADIUS={0.2}
-  SPLAT_FORCE={6000}
-  COLOR_UPDATE_SPEED={10}
-  SHADING
-  RAINBOW_MODE={false}
-  COLOR="#A855F7"
-/>
+           
         </> 
     )
 }
