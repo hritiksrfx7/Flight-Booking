@@ -1,0 +1,47 @@
+{
+     "CardData":[
+        {
+            "id":"1",
+            "title":"40 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        },
+         {
+            "id":"2",
+            "title":"50 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        },
+         {
+            "id":"3",
+            "title":"40 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        },
+         {
+            "id":"4",
+            "title":"40 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        },
+         {
+            "id":"5",
+            "title":"40 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        },
+         {
+            "id":"6",
+            "title":"40 Flights",
+            "city":"Dubai",
+            "country":"United Arab Emirates",
+            "image":"./Images/dubai.jpg"
+        }
+    ]
+    
+}

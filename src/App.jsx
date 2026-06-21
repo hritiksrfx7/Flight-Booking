@@ -4,21 +4,22 @@ import Signup from './Signup'
 import Navbar from './Navbar'
 import Layout from './Layout';
 import Home from './Home';
+
 const App = ()=>{
+
+   
     return (
+
         <>
        
        <Routes>
         <Route path='/' element={ <Layout/> }>
-
-        <Route index element={ <Signup/> }/>
+         <Route index element={ <Home/> }/>
+          <Route path='/home' element={ <Home/> }/> 
+        </Route>
+        
          <Route path='/login' element={ <Login/> } />
          <Route path='/signup' element={ <Signup/> }/>
-         <Route path='/home' element={ <Home/> }/>
-        
-        
-        </Route>
-
        </Routes>
         </>
     )

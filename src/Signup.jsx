@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState,useRef,useEffect } from "react"
 import {Navigate, useNavigate} from 'react-router-dom'
 import './Tailwind.css'
 import  './Signup.css'
@@ -10,6 +10,7 @@ import bgImage from './assets/loging-bg.png'
  import { IoMdContacts } from "react-icons/io";
  import {Link} from "react-router-dom"
  import TextType from './TextType'
+
  
 
  
@@ -22,6 +23,7 @@ const Signup = ()=>{
         pass:"",
         num:""
     })
+ 
 
     let navigate = useNavigate()
   
@@ -62,7 +64,7 @@ const Signup = ()=>{
        if(valid){
         let users = JSON.parse(localStorage.getItem('user')) || []
         if(!Array.isArray(users)){
-          users = []
+          users = []  
         }
         let alreadyuser = users.find((e)=>{
           return e.email == form.email
@@ -90,11 +92,13 @@ const Signup = ()=>{
         num:""
        })
        
-      
+        
      
     }
     return(
         <>
+             
+             <form onSubmit={handleSubmit}></form>
         <div  className="h-screen bg-cover bg-center "
          style={{backgroundImage: `url(${bgImage})`}}>
 

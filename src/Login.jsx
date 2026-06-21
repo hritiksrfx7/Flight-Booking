@@ -13,6 +13,7 @@ import './Login.css'
 
 
 const Login = ()=>{
+    
     const [form,setForm] = useState({
         "email":"",
         "pass":""
@@ -42,6 +43,7 @@ const Login = ()=>{
        }
        if(alreadyuser.pass != form.pass){
           alert("Invalid Password")
+          return
        }
        if(alreadyuser.pass == form.pass ){
         alert("login successfully")
@@ -58,7 +60,7 @@ const Login = ()=>{
                  style={{backgroundImage: `url(${bgImage})`}}>
 
                     <div id="formcss" className="mr-15 mb-6 rounded-2xl fixed top-0 right-0 mt-17   "   >
-                         <h1 className="font-bold text-2xl pt-8 text-center     ">Welcome Back</h1>
+                         <h1 className="font-bold text-2xl pt-8 text-center">Welcome Back</h1>
                          <p className='text-center'>Login to continue your account</p>
 
        <form onSubmit={handleSubmit}>
@@ -146,7 +148,7 @@ const Login = ()=>{
 
          </div>
            
-           
+          
         </> 
     )
 }
