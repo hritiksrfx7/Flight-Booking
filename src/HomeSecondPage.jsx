@@ -31,7 +31,7 @@ const CountUp = CountUpModule.default;
         </div>
 
         <h1 className="text-white text-5xl font-bold mt-3  hover:text-yellow-300">
-           <CountUpModule.default  end={500} duration={3} enableScrollSpy scrollSpyOnce  />+
+           <CountUpModule.default  end={500} duration={3} enableScrollSpy   />+
         </h1>
         <p className="text-gray-400 text-xl mt-4 tracking-wider hover:text-white">AIRLINES</p>
       </div>
@@ -42,7 +42,7 @@ const CountUp = CountUpModule.default;
         </div>
 
         <h1  className="text-white text-5xl font-bold mt-3  hover:text-yellow-300">
-           <CountUpModule.default  end={50} duration={3} enableScrollSpy scrollSpyOnce  />k+
+           <CountUpModule.default  end={50} duration={3} enableScrollSpy   />k+
         </h1>
         <p className="text-gray-400 text-xl mt-4 tracking-wider hover:text-white">HOTELS</p>
       </div>
@@ -53,7 +53,7 @@ const CountUp = CountUpModule.default;
         </div>
 
         <h1  className="text-white text-5xl font-bold mt-3  hover:text-yellow-300">
-           <CountUpModule.default  end={150} duration={3} enableScrollSpy scrollSpyOnce  />++</h1>
+           <CountUpModule.default  end={150} duration={3} enableScrollSpy   />+</h1>
         <p className="text-gray-400 text-xl mt-4 tracking-wider hover:text-white">COUNTRIES</p>
       </div>
 
@@ -63,7 +63,7 @@ const CountUp = CountUpModule.default;
         </div>
 
         <h1  className="text-white text-5xl font-bold mt-3  hover:text-yellow-300">
-           <CountUpModule.default  end={15} duration={3} enableScrollSpy scrollSpyOnce  />M+</h1>
+           <CountUpModule.default  end={15} duration={3} enableScrollSpy   />M+</h1>
         <p className="text-gray-400 text-xl mt-4 tracking-wider hover:text-white">
           HAPPY TRAVELERS
         </p>

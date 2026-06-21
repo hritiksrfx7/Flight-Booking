@@ -4,6 +4,7 @@ import Signup from './Signup'
 import Navbar from './Navbar'
 import Layout from './Layout';
 import Home from './Home';
+import About from './About';
 
 const App = ()=>{
 
@@ -16,6 +17,7 @@ const App = ()=>{
         <Route path='/' element={ <Layout/> }>
          <Route index element={ <Home/> }/>
           <Route path='/home' element={ <Home/> }/> 
+          <Route path='/about' element={ <About/> }/>
         </Route>
         
          <Route path='/login' element={ <Login/> } />
