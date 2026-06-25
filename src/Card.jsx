@@ -17,7 +17,7 @@ const Card = () => {
   return (
     <>
     
-      <div className='h-[150vh] w-full  pl-26 pt-35 bg-linear-to-b from-[#000814] via-[#00061A] to-[rgb(0,3,15)]  '>
+      <div className='h-[150vh] w-full  pl-26 ml- pt-35 bg-linear-to-b from-[#000814] via-[#00061A] to-[rgb(0,3,15)]  '>
         <div className='h-60 w-150   '>
           <div className='h-10 w-45 border rounded-2xl   bg-[#22326D] text-[#1A5FFF] text-center pt-2 '> 
             EXPLORE THE WORLD

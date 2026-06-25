@@ -1,47 +1,981 @@
 {
-     "CardData":[
+  "CardData": [
+    {
+      "id": "1",
+      "title": "40 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    },
+    {
+      "id": "2",
+      "title": "50 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    },
+    {
+      "id": "3",
+      "title": "40 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    },
+    {
+      "id": "4",
+      "title": "40 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    },
+    {
+      "id": "5",
+      "title": "40 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    },
+    {
+      "id": "6",
+      "title": "40 Flights",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "image": "./Images/dubai.jpg"
+    }
+  ],
+      "MyBooking":[
         {
-            "id":"1",
-            "title":"40 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
-        },
-         {
-            "id":"2",
-            "title":"50 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
-        },
-         {
-            "id":"3",
-            "title":"40 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
-        },
-         {
-            "id":"4",
-            "title":"40 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
-        },
-         {
-            "id":"5",
-            "title":"40 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
-        },
-         {
-            "id":"6",
-            "title":"40 Flights",
-            "city":"Dubai",
-            "country":"United Arab Emirates",
-            "image":"./Images/dubai.jpg"
+
         }
-    ]
-    
+      ],
+  "flights": [
+    {
+      "id": "1",
+      "airline": "IndiGo",
+      "from": "Bhopal",
+      "to": "Pune",
+      "departureTime": "7:32 AM",
+      "arrivalTime": "4:01 PM",
+      "price": 2310
+    },
+     {
+      "id": "102",
+      "airline": "IndiGo",
+      "from": "Delhi",
+      "to": "Indore",
+      "departureTime": "7:32 AM",
+      "arrivalTime": "4:01 PM",
+      "price": 2310
+    },
+    {
+      "id": "102",
+      "airline": "IndiGo",
+      "from": "Delhi",
+      "to": "Jaipur",
+      "departureTime": "7:32 AM",
+      "arrivalTime": "4:01 PM",
+      "price": 2310
+    },
+    {
+      "id": "2",
+      "airline": "Akasa Air",
+      "from": "Lucknow",
+      "to": "Pune",
+      "departureTime": "4:57 AM",
+      "arrivalTime": "5:13 PM",
+      "price": 7039
+    },
+    {
+      "id": "3",
+      "airline": "Vistara",
+      "from": "Kolkata",
+      "to": "Patna",
+      "departureTime": "4:14 AM",
+      "arrivalTime": "12:44 PM",
+      "price": 5968
+    },
+    {
+      "id": "4",
+      "airline": "Akasa Air",
+      "from": "Jaipur",
+      "to": "Lucknow",
+      "departureTime": "10:43 AM",
+      "arrivalTime": "8:19 PM",
+      "price": 2888
+    },
+    {
+      "id": "5",
+      "airline": "Air India",
+      "from": "Pune",
+      "to": "Kolkata",
+      "departureTime": "9:31 AM",
+      "arrivalTime": "3:37 PM",
+      "price": 5331
+    },
+    {
+      "id": "6",
+      "airline": "Akasa Air",
+      "from": "Hyderabad",
+      "to": "Kolkata",
+      "departureTime": "10:14 AM",
+      "arrivalTime": "10:01 PM",
+      "price": 5865
+    },
+    {
+      "id": "7",
+      "airline": "Akasa Air",
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "departureTime": "11:19 AM",
+      "arrivalTime": "5:49 PM",
+      "price": 6772
+    },
+    {
+      "id": "8",
+      "airline": "IndiGo",
+      "from": "Kolkata",
+      "to": "Nagpur",
+      "departureTime": "1:31 AM",
+      "arrivalTime": "3:51 PM",
+      "price": 4492
+    },
+    {
+      "id": "9",
+      "airline": "Air India",
+      "from": "Jaipur",
+      "to": "Nagpur",
+      "departureTime": "4:18 AM",
+      "arrivalTime": "5:51 PM",
+      "price": 2836
+    },
+    {
+      "id": "10",
+      "airline": "IndiGo",
+      "from": "Kolkata",
+      "to": "Hyderabad",
+      "departureTime": "9:40 AM",
+      "arrivalTime": "6:44 PM",
+      "price": 7020
+    },
+    {
+      "id": "11",
+      "airline": "Air India",
+      "from": "Ahmedabad",
+      "to": "Patna",
+      "departureTime": "12:36 AM",
+      "arrivalTime": "9:19 PM",
+      "price": 7937
+    },
+    {
+      "id": "12",
+      "airline": "Akasa Air",
+      "from": "Ahmedabad",
+      "to": "Bhopal",
+      "departureTime": "5:29 AM",
+      "arrivalTime": "8:33 PM",
+      "price": 6075
+    },
+    {
+      "id": "13",
+      "airline": "IndiGo",
+      "from": "Indore",
+      "to": "Chennai",
+      "departureTime": "11:30 AM",
+      "arrivalTime": "12:13 PM",
+      "price": 7801
+    },
+    {
+      "id": "14",
+      "airline": "SpiceJet",
+      "from": "Goa",
+      "to": "Mumbai",
+      "departureTime": "5:08 AM",
+      "arrivalTime": "10:31 PM",
+      "price": 4912
+    },
+    {
+      "id": "15",
+      "airline": "IndiGo",
+      "from": "Ahmedabad",
+      "to": "Nagpur",
+      "departureTime": "8:14 AM",
+      "arrivalTime": "1:34 PM",
+      "price": 6458
+    },
+    {
+      "id": "16",
+      "airline": "Air India",
+      "from": "Jaipur",
+      "to": "Delhi",
+      "departureTime": "5:03 AM",
+      "arrivalTime": "7:09 PM",
+      "price": 2796
+    },
+    {
+      "id": "17",
+      "airline": "Vistara",
+      "from": "Jaipur",
+      "to": "Bangalore",
+      "departureTime": "6:43 AM",
+      "arrivalTime": "9:50 PM",
+      "price": 3599
+    },
+    {
+      "id": "18",
+      "airline": "Akasa Air",
+      "from": "Bhopal",
+      "to": "Hyderabad",
+      "departureTime": "1:35 AM",
+      "arrivalTime": "7:57 PM",
+      "price": 4395
+    },
+    {
+      "id": "19",
+      "airline": "IndiGo",
+      "from": "Kolkata",
+      "to": "Lucknow",
+      "departureTime": "12:18 AM",
+      "arrivalTime": "2:46 PM",
+      "price": 7092
+    },
+    {
+      "id": "20",
+      "airline": "Akasa Air",
+      "from": "Bhopal",
+      "to": "Chennai",
+      "departureTime": "6:47 AM",
+      "arrivalTime": "1:35 PM",
+      "price": 3082
+    },
+    {
+      "id": "21",
+      "airline": "SpiceJet",
+      "from": "Ahmedabad",
+      "to": "Goa",
+      "departureTime": "3:36 AM",
+      "arrivalTime": "1:52 PM",
+      "price": 6767
+    },
+    {
+      "id": "22",
+      "airline": "Air India",
+      "from": "Kolkata",
+      "to": "Ahmedabad",
+      "departureTime": "1:49 AM",
+      "arrivalTime": "9:46 PM",
+      "price": 3826
+    },
+    {
+      "id": "23",
+      "airline": "Vistara",
+      "from": "Pune",
+      "to": "Mumbai",
+      "departureTime": "3:04 AM",
+      "arrivalTime": "12:43 PM",
+      "price": 2574
+    },
+    {
+      "id": "24",
+      "airline": "Air India",
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "departureTime": "10:38 AM",
+      "arrivalTime": "11:09 PM",
+      "price": 5443
+    },
+    {
+      "id": "25",
+      "airline": "Vistara",
+      "from": "Bangalore",
+      "to": "Lucknow",
+      "departureTime": "4:33 AM",
+      "arrivalTime": "9:02 PM",
+      "price": 3988
+    },
+    {
+      "id": "26",
+      "airline": "IndiGo",
+      "from": "Nagpur",
+      "to": "Jaipur",
+      "departureTime": "8:06 AM",
+      "arrivalTime": "8:11 PM",
+      "price": 6053
+    },
+    {
+      "id": "27",
+      "airline": "SpiceJet",
+      "from": "Pune",
+      "to": "Goa",
+      "departureTime": "7:47 AM",
+      "arrivalTime": "6:10 PM",
+      "price": 3563
+    },
+    {
+      "id": "28",
+      "airline": "IndiGo",
+      "from": "Bangalore",
+      "to": "Patna",
+      "departureTime": "6:44 AM",
+      "arrivalTime": "2:17 PM",
+      "price": 4940
+    },
+    {
+      "id": "29",
+      "airline": "SpiceJet",
+      "from": "Kolkata",
+      "to": "Patna",
+      "departureTime": "12:19 AM",
+      "arrivalTime": "2:02 PM",
+      "price": 5643
+    },
+    {
+      "id": "30",
+      "airline": "Akasa Air",
+      "from": "Jaipur",
+      "to": "Patna",
+      "departureTime": "7:36 AM",
+      "arrivalTime": "3:25 PM",
+      "price": 4190
+    },
+    {
+      "id": "31",
+      "airline": "Akasa Air",
+      "from": "Patna",
+      "to": "Bangalore",
+      "departureTime": "3:04 AM",
+      "arrivalTime": "2:46 PM",
+      "price": 5539
+    },
+    {
+      "id": "32",
+      "airline": "SpiceJet",
+      "from": "Chennai",
+      "to": "Bangalore",
+      "departureTime": "9:48 AM",
+      "arrivalTime": "5:35 PM",
+      "price": 4346
+    },
+    {
+      "id": "33",
+      "airline": "Vistara",
+      "from": "Bangalore",
+      "to": "Nagpur",
+      "departureTime": "3:48 AM",
+      "arrivalTime": "5:11 PM",
+      "price": 6977
+    },
+    {
+      "id": "34",
+      "airline": "SpiceJet",
+      "from": "Pune",
+      "to": "Lucknow",
+      "departureTime": "11:56 AM",
+      "arrivalTime": "12:39 PM",
+      "price": 4544
+    },
+    {
+      "id": "35",
+      "airline": "SpiceJet",
+      "from": "Lucknow",
+      "to": "Pune",
+      "departureTime": "5:42 AM",
+      "arrivalTime": "4:06 PM",
+      "price": 2961
+    },
+    {
+      "id": "36",
+      "airline": "Akasa Air",
+      "from": "Bhopal",
+      "to": "Lucknow",
+      "departureTime": "11:46 AM",
+      "arrivalTime": "12:08 PM",
+      "price": 7223
+    },
+    {
+      "id": "37",
+      "airline": "Akasa Air",
+      "from": "Nagpur",
+      "to": "Ahmedabad",
+      "departureTime": "6:00 AM",
+      "arrivalTime": "8:11 PM",
+      "price": 5153
+    },
+    {
+      "id": "38",
+      "airline": "Air India",
+      "from": "Ahmedabad",
+      "to": "Indore",
+      "departureTime": "9:28 AM",
+      "arrivalTime": "2:20 PM",
+      "price": 4171
+    },
+    {
+      "id": "39",
+      "airline": "Air India",
+      "from": "Mumbai",
+      "to": "Patna",
+      "departureTime": "11:30 AM",
+      "arrivalTime": "7:19 PM",
+      "price": 3098
+    },
+    {
+      "id": "40",
+      "airline": "Vistara",
+      "from": "Ahmedabad",
+      "to": "Pune",
+      "departureTime": "11:36 AM",
+      "arrivalTime": "12:01 PM",
+      "price": 6810
+    },
+    {
+      "id": "41",
+      "airline": "IndiGo",
+      "from": "Patna",
+      "to": "Lucknow",
+      "departureTime": "7:53 AM",
+      "arrivalTime": "8:31 PM",
+      "price": 3167
+    },
+    {
+      "id": "42",
+      "airline": "IndiGo",
+      "from": "Indore",
+      "to": "Chennai",
+      "departureTime": "6:01 AM",
+      "arrivalTime": "3:24 PM",
+      "price": 7360
+    },
+    {
+      "id": "43",
+      "airline": "SpiceJet",
+      "from": "Pune",
+      "to": "Lucknow",
+      "departureTime": "7:07 AM",
+      "arrivalTime": "7:44 PM",
+      "price": 5558
+    },
+    {
+      "id": "44",
+      "airline": "Vistara",
+      "from": "Bangalore",
+      "to": "Nagpur",
+      "departureTime": "6:22 AM",
+      "arrivalTime": "8:49 PM",
+      "price": 2950
+    },
+    {
+      "id": "45",
+      "airline": "Vistara",
+      "from": "Nagpur",
+      "to": "Indore",
+      "departureTime": "5:57 AM",
+      "arrivalTime": "12:51 PM",
+      "price": 7058
+    },
+    {
+      "id": "46",
+      "airline": "Vistara",
+      "from": "Bhopal",
+      "to": "Lucknow",
+      "departureTime": "6:45 AM",
+      "arrivalTime": "7:48 PM",
+      "price": 3406
+    },
+    {
+      "id": "47",
+      "airline": "Akasa Air",
+      "from": "Bangalore",
+      "to": "Delhi",
+      "departureTime": "6:27 AM",
+      "arrivalTime": "4:41 PM",
+      "price": 4288
+    },
+    {
+      "id": "48",
+      "airline": "Akasa Air",
+      "from": "Nagpur",
+      "to": "Bhopal",
+      "departureTime": "4:13 AM",
+      "arrivalTime": "6:11 PM",
+      "price": 7383
+    },
+    {
+      "id": "49",
+      "airline": "SpiceJet",
+      "from": "Chennai",
+      "to": "Hyderabad",
+      "departureTime": "4:46 AM",
+      "arrivalTime": "8:12 PM",
+      "price": 6853
+    },
+    {
+      "id": "50",
+      "airline": "Air India",
+      "from": "Ahmedabad",
+      "to": "Indore",
+      "departureTime": "3:14 AM",
+      "arrivalTime": "1:54 PM",
+      "price": 4356
+    },
+    {
+      "id": "51",
+      "airline": "Vistara",
+      "from": "Patna",
+      "to": "Pune",
+      "departureTime": "4:40 AM",
+      "arrivalTime": "4:00 PM",
+      "price": 3640
+    },
+    {
+      "id": "52",
+      "airline": "IndiGo",
+      "from": "Ahmedabad",
+      "to": "Goa",
+      "departureTime": "11:59 AM",
+      "arrivalTime": "6:37 PM",
+      "price": 7824
+    },
+    {
+      "id": "53",
+      "airline": "SpiceJet",
+      "from": "Chennai",
+      "to": "Indore",
+      "departureTime": "6:42 AM",
+      "arrivalTime": "2:57 PM",
+      "price": 2538
+    },
+    {
+      "id": "54",
+      "airline": "Akasa Air",
+      "from": "Patna",
+      "to": "Delhi",
+      "departureTime": "5:50 AM",
+      "arrivalTime": "12:44 PM",
+      "price": 3215
+    },
+    {
+      "id": "55",
+      "airline": "Air India",
+      "from": "Hyderabad",
+      "to": "Ahmedabad",
+      "departureTime": "10:32 AM",
+      "arrivalTime": "5:04 PM",
+      "price": 3460
+    },
+    {
+      "id": "56",
+      "airline": "Vistara",
+      "from": "Pune",
+      "to": "Bhopal",
+      "departureTime": "4:51 AM",
+      "arrivalTime": "10:48 PM",
+      "price": 4864
+    },
+    {
+      "id": "57",
+      "airline": "IndiGo",
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "departureTime": "12:30 AM",
+      "arrivalTime": "6:53 PM",
+      "price": 4412
+    },
+    {
+      "id": "58",
+      "airline": "Vistara",
+      "from": "Bhopal",
+      "to": "Goa",
+      "departureTime": "4:14 AM",
+      "arrivalTime": "9:50 PM",
+      "price": 5187
+    },
+    {
+      "id": "59",
+      "airline": "SpiceJet",
+      "from": "Goa",
+      "to": "Lucknow",
+      "departureTime": "11:59 AM",
+      "arrivalTime": "11:38 PM",
+      "price": 2647
+    },
+    {
+      "id": "60",
+      "airline": "Vistara",
+      "from": "Chennai",
+      "to": "Mumbai",
+      "departureTime": "1:18 AM",
+      "arrivalTime": "3:09 PM",
+      "price": 3459
+    },
+    {
+      "id": "61",
+      "airline": "Air India",
+      "from": "Indore",
+      "to": "Patna",
+      "departureTime": "2:15 AM",
+      "arrivalTime": "12:41 PM",
+      "price": 4848
+    },
+    {
+      "id": "62",
+      "airline": "Air India",
+      "from": "Kolkata",
+      "to": "Goa",
+      "departureTime": "10:36 AM",
+      "arrivalTime": "12:50 PM",
+      "price": 6353
+    },
+    {
+      "id": "63",
+      "airline": "Air India",
+      "from": "Pune",
+      "to": "Delhi",
+      "departureTime": "6:35 AM",
+      "arrivalTime": "8:52 PM",
+      "price": 7387
+    },
+    {
+      "id": "64",
+      "airline": "SpiceJet",
+      "from": "Indore",
+      "to": "Lucknow",
+      "departureTime": "7:50 AM",
+      "arrivalTime": "1:46 PM",
+      "price": 2602
+    },
+    {
+      "id": "65",
+      "airline": "Vistara",
+      "from": "Lucknow",
+      "to": "Mumbai",
+      "departureTime": "7:40 AM",
+      "arrivalTime": "5:03 PM",
+      "price": 2580
+    },
+    {
+      "id": "66",
+      "airline": "Air India",
+      "from": "Bangalore",
+      "to": "Pune",
+      "departureTime": "7:11 AM",
+      "arrivalTime": "3:21 PM",
+      "price": 6166
+    },
+    {
+      "id": "67",
+      "airline": "Akasa Air",
+      "from": "Mumbai",
+      "to": "Goa",
+      "departureTime": "5:08 AM",
+      "arrivalTime": "1:21 PM",
+      "price": 7602
+    },
+    {
+      "id": "68",
+      "airline": "SpiceJet",
+      "from": "Mumbai",
+      "to": "Goa",
+      "departureTime": "3:17 AM",
+      "arrivalTime": "3:34 PM",
+      "price": 7859
+    },
+    {
+      "id": "69",
+      "airline": "SpiceJet",
+      "from": "Patna",
+      "to": "Indore",
+      "departureTime": "2:07 AM",
+      "arrivalTime": "4:06 PM",
+      "price": 3809
+    },
+    {
+      "id": "70",
+      "airline": "SpiceJet",
+      "from": "Ahmedabad",
+      "to": "Indore",
+      "departureTime": "3:34 AM",
+      "arrivalTime": "9:36 PM",
+      "price": 4398
+    },
+    {
+      "id": "71",
+      "airline": "IndiGo",
+      "from": "Goa",
+      "to": "Indore",
+      "departureTime": "3:03 AM",
+      "arrivalTime": "4:54 PM",
+      "price": 7074
+    },
+    {
+      "id": "72",
+      "airline": "Air India",
+      "from": "Bhopal",
+      "to": "Nagpur",
+      "departureTime": "8:30 AM",
+      "arrivalTime": "11:33 PM",
+      "price": 6972
+    },
+    {
+      "id": "73",
+      "airline": "SpiceJet",
+      "from": "Mumbai",
+      "to": "Jaipur",
+      "departureTime": "2:26 AM",
+      "arrivalTime": "6:06 PM",
+      "price": 6041
+    },
+    {
+      "id": "74",
+      "airline": "IndiGo",
+      "from": "Bangalore",
+      "to": "Goa",
+      "departureTime": "9:54 AM",
+      "arrivalTime": "10:02 PM",
+      "price": 6157
+    },
+    {
+      "id": "75",
+      "airline": "SpiceJet",
+      "from": "Goa",
+      "to": "Pune",
+      "departureTime": "2:50 AM",
+      "arrivalTime": "5:52 PM",
+      "price": 4516
+    },
+    {
+      "id": "76",
+      "airline": "Air India",
+      "from": "Nagpur",
+      "to": "Kolkata",
+      "departureTime": "11:34 AM",
+      "arrivalTime": "4:15 PM",
+      "price": 3929
+    },
+    {
+      "id": "77",
+      "airline": "SpiceJet",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departureTime": "12:05 AM",
+      "arrivalTime": "7:31 PM",
+      "price": 3235
+    },
+    {
+      "id": "78",
+      "airline": "Akasa Air",
+      "from": "Nagpur",
+      "to": "Kolkata",
+      "departureTime": "11:45 AM",
+      "arrivalTime": "8:40 PM",
+      "price": 2435
+    },
+    {
+      "id": "79",
+      "airline": "SpiceJet",
+      "from": "Chennai",
+      "to": "Nagpur",
+      "departureTime": "9:15 AM",
+      "arrivalTime": "5:01 PM",
+      "price": 6375
+    },
+    {
+      "id": "80",
+      "airline": "SpiceJet",
+      "from": "Nagpur",
+      "to": "Chennai",
+      "departureTime": "1:06 AM",
+      "arrivalTime": "4:07 PM",
+      "price": 5963
+    },
+    {
+      "id": "81",
+      "airline": "IndiGo",
+      "from": "Jaipur",
+      "to": "Kolkata",
+      "departureTime": "3:36 AM",
+      "arrivalTime": "1:42 PM",
+      "price": 2614
+    },
+    {
+      "id": "82",
+      "airline": "Akasa Air",
+      "from": "Chennai",
+      "to": "Nagpur",
+      "departureTime": "4:27 AM",
+      "arrivalTime": "9:59 PM",
+      "price": 6775
+    },
+    {
+      "id": "83",
+      "airline": "Akasa Air",
+      "from": "Jaipur",
+      "to": "Mumbai",
+      "departureTime": "5:52 AM",
+      "arrivalTime": "6:57 PM",
+      "price": 2269
+    },
+    {
+      "id": "84",
+      "airline": "SpiceJet",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departureTime": "4:47 AM",
+      "arrivalTime": "12:41 PM",
+      "price": 2046
+    },
+    {
+      "id": "85",
+      "airline": "Akasa Air",
+      "from": "Jaipur",
+      "to": "Lucknow",
+      "departureTime": "5:21 AM",
+      "arrivalTime": "9:50 PM",
+      "price": 2147
+    },
+    {
+      "id": "86",
+      "airline": "IndiGo",
+      "from": "Delhi",
+      "to": "Kolkata",
+      "departureTime": "11:43 AM",
+      "arrivalTime": "10:59 PM",
+      "price": 4868
+    },
+    {
+      "id": "87",
+      "airline": "SpiceJet",
+      "from": "Mumbai",
+      "to": "Nagpur",
+      "departureTime": "5:40 AM",
+      "arrivalTime": "1:25 PM",
+      "price": 5810
+    },
+    {
+      "id": "88",
+      "airline": "IndiGo",
+      "from": "Indore",
+      "to": "Bhopal",
+      "departureTime": "6:13 AM",
+      "arrivalTime": "3:26 PM",
+      "price": 3428
+    },
+    {
+      "id": "89",
+      "airline": "Vistara",
+      "from": "Delhi",
+      "to": "Ahmedabad",
+      "departureTime": "9:06 AM",
+      "arrivalTime": "7:01 PM",
+      "price": 4991
+    },
+    {
+      "id": "90",
+      "airline": "Air India",
+      "from": "Hyderabad",
+      "to": "Delhi",
+      "departureTime": "6:28 AM",
+      "arrivalTime": "3:47 PM",
+      "price": 7661
+    },
+    {
+      "id": "91",
+      "airline": "Vistara",
+      "from": "Pune",
+      "to": "Jaipur",
+      "departureTime": "9:19 AM",
+      "arrivalTime": "9:44 PM",
+      "price": 3101
+    },
+    {
+      "id": "92",
+      "airline": "Vistara",
+      "from": "Patna",
+      "to": "Bangalore",
+      "departureTime": "4:48 AM",
+      "arrivalTime": "10:43 PM",
+      "price": 6519
+    },
+    {
+      "id": "93",
+      "airline": "Air India",
+      "from": "Bangalore",
+      "to": "Jaipur",
+      "departureTime": "5:33 AM",
+      "arrivalTime": "5:05 PM",
+      "price": 4803
+    },
+    {
+      "id": "94",
+      "airline": "Air India",
+      "from": "Kolkata",
+      "to": "Bhopal",
+      "departureTime": "12:44 AM",
+      "arrivalTime": "8:17 PM",
+      "price": 4490
+    },
+    {
+      "id": "95",
+      "airline": "IndiGo",
+      "from": "Delhi",
+      "to": "Bhopal",
+      "departureTime": "12:50 AM",
+      "arrivalTime": "2:44 PM",
+      "price": 4699
+    },
+    {
+      "id": "96",
+      "airline": "Akasa Air",
+      "from": "Pune",
+      "to": "Nagpur",
+      "departureTime": "2:23 AM",
+      "arrivalTime": "5:54 PM",
+      "price": 4510
+    },
+    {
+      "id": "97",
+      "airline": "Akasa Air",
+      "from": "Nagpur",
+      "to": "Indore",
+      "departureTime": "5:00 AM",
+      "arrivalTime": "9:28 PM",
+      "price": 5507
+    },
+    {
+      "id": "98",
+      "airline": "Akasa Air",
+      "from": "Chennai",
+      "to": "Delhi",
+      "departureTime": "4:57 AM",
+      "arrivalTime": "12:02 PM",
+      "price": 4473
+    },
+    {
+      "id": "99",
+      "airline": "Air India",
+      "from": "Kolkata",
+      "to": "Hyderabad",
+      "departureTime": "9:23 AM",
+      "arrivalTime": "3:41 PM",
+      "price": 2092
+    },
+    {
+      "id": "100",
+      "airline": "Akasa Air",
+      "from": "Indore",
+      "to": "Nagpur",
+      "departureTime": "4:41 AM",
+      "arrivalTime": "6:04 PM",
+      "price": 2278
+    },
+    {
+      "id": "100",
+      "airline": "Akasa Air",
+      "from": "Indore",
+      "to": "Patna",
+      "departureTime": "4:41 AM",
+      "arrivalTime": "6:04 PM",
+      "price": 2278
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

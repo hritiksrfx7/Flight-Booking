@@ -29,25 +29,27 @@ const Navbar = ()=>{
           : "bg-transparent"
       }`} >
          
-          <div className="w-60 h-12  pb-5">
-            
+          <div className="w-60 h-12  mr-40 font-bold text-5xl italic tracking-wide  flex  ">
+             <h1 className='' >Sky</h1>
+             <h1 className=' text-[#6EB4FF] '>Way</h1>
           </div>
-          <div className="w-120 h-12  flex  items-center justify-evenly   ">
+          <div className="w-120 h-12  flex pr-25  items-center justify-evenly   ">
                     {/* <Link to='/home'>Home</Link>
                     <Link>Flights</Link>
                     <Link>Manage Booking</Link>
                     <Link>Support</Link> */}
                     
-<PillNav
+<PillNav 
   
   
   items={[
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Services', href: '/services' },
-    { label: 'Contact', href: '/contact' }
+    { label: 'Contact', href: '/contact' },
+    
   ]}
-  activeHref="/"
+  
   className="custom-nav"
   ease="power2.easeOut"
   baseColor="#000000"
@@ -61,14 +63,20 @@ const Navbar = ()=>{
            
           </div>
           <div className="w-80 h-12  flex justify-center items-center gap-8 pl-10 ml-10 ">
-            <div className='w-45 h-10    border border-amber-100 hover:shadow-xl hover:bg-blue-500 transition-all duration-00 text-white  text-center rounded-2xl flex justify-center items-center gap-3'>
-                <div><FaUser /></div>
-                <div ><Link to='/signup'>Sign up</Link></div>
-            </div>
-                 <div className='w-45 h-10  border border-amber-100 hover:shadow-xl hover:bg-blue-500  transition-all duration-300 text-white text-center rounded-2xl  flex justify-center items-center gap-3'>
+            <Link to='/signup' >
+                
+                  <div className='w-45 h-10  border border-amber-100 hover:shadow-xl hover:bg-blue-500  transition-all duration-300 text-white text-center rounded-2xl  flex justify-center items-center gap-3'>
                 <div> <FaSignInAlt /></div>
-                <div><Link to='/login'>Login</Link></div>
+                <div>Signup</div>
             </div>
+                </Link>
+                <Link to='/login' >
+                
+                  <div className='w-45 h-10  border border-amber-100 hover:shadow-xl hover:bg-blue-500  transition-all duration-300 text-white text-center rounded-2xl  flex justify-center items-center gap-3'>
+                <div> <FaSignInAlt /></div>
+                <div>Login</div>
+            </div>
+                </Link>
          
           </div  >
 
