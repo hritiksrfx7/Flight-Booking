@@ -4,7 +4,7 @@
         import bgImage from './assets/showflightsbg.png'
 
         const Showflights = ()=>{
-               const location = useLocation()
+            const location = useLocation()
             const navigate = useNavigate()
             
             
@@ -50,7 +50,7 @@
             
             });
 
-        }, [from, to]);
+           }, [from, to]);
 
             return(
                 <>
